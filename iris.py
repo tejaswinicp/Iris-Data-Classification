@@ -7,10 +7,9 @@ This is a temporary script file.
 
 import pandas as pd
 import matplotlib.pyplot as plt
-from sklearn.svm import SVC
 from sklearn.cross_validation import train_test_split
 from sklearn.svm import LinearSVC
-from sklearn.preprocessing import StandardScaler
+
 
 #Load Dataset
 url = "https://raw.githubusercontent.com/jbrownlee/Datasets/master/iris.csv"
